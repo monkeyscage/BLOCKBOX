@@ -67,7 +67,7 @@ string public logInterface="a-Log|u-Block|u-PrevLog|u-NextLog|u-TotExposed";
    }
  
  
-//destroy blog
+//destroy box
 function kill(){
 if (msg.sender != owner)throw;
 selfdestruct(owner);
